@@ -1,0 +1,15 @@
+<!--pages/dateDetail/dateDetail.wxml-->
+<view class="dateDetail">
+<view class='title'>
+  <text>{{dateDetailTitle}}</text>
+</view>
+<view class='time'>
+  <text>{{dateDetailTime}}</text>
+</view>
+<view class='pic'>
+  <image src='{{dateDetailImageSrc}}' mode='aspectFill'></image>
+</view>
+<view class='des'>
+  <text>{{dateDetailDes}}</text>
+</view>
+</view>

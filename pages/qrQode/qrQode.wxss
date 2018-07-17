@@ -1,0 +1,18 @@
+/* pages/qrQode/qrQode.wxss */
+@import "../../common/lib/weui.wxss";
+.qrCodeInput
+{
+  margin: 20rpx;
+  border:  2rpx solid;
+  border-radius: 6rpx;
+  height: 80rpx;
+  padding-left: 20rpx
+}
+
+.generate
+{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 28rpx;
+  height:100rpx;
+}

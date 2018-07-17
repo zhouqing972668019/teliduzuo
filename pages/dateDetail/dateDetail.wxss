@@ -1,0 +1,46 @@
+/* pages/dateDetail/dateDetail.wxss */
+.dateDetail
+{
+  margin-top:20rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  border: 2rpx solid;
+  border-radius: 6rpx;
+  background-color: #FFFFFF;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50rpx;
+  color: #353535;
+  line-height: 2em;
+  border-bottom: 2rpx solid
+}
+.time
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30 rpx;
+  color: #353535;
+  line-height: 2em;
+  border-bottom: 2rpx solid
+}
+.pic
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2rpx solid;
+}
+.des
+{
+  margin-left:20rpx;
+  font-size: 30 rpx;
+  color: #353535;
+  line-height: 2em;
+}

@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/cover/cover",
+    "pages/express/express",
+    "pages/qrQode/qrQode",
+    "pages/date/date",
+    "pages/dateDetail/dateDetail",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail",
+    "pages/faceScore/faceScore"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

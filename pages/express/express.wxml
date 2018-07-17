@@ -1,0 +1,18 @@
+<!--pages/express/express.wxml-->
+<view class='express'>
+  <view class="weui-cells__title">订单号</view>
+ 
+    
+      <input class="expressInput" bindinput="updateExpressNo" auto-focus type='number' placeholder="请填写订单号" value='{{expressNoValue}}'  placeholder-style="margin-left:10rpx"/>
+  
+ 
+  <button plain="true" class='query' bindtap='queryInfo'>查询</button>
+  <view class='expressInfo' wx:for="{{expressInfoList}}" wx:for-item="item">
+    <view class='weui-cell'>
+      <view class="text-box" scroll-y="true" >
+        <text>{{item.time}}</text>
+        <text>{{item.context}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/cover/cover.wxml-->
+<view class='index'>
+  <image src='{{bg_img}}' class='image' mode='aspectFill' style='width:750rpx'></image>
+  <view class="components">
+    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <view class="kind-list-item">
+        <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
+          <view class="kind-list-text">{{item.name}}</view>
+        </view>
+        <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+          <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+            <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:for-index="pageIndex">
+              <navigator url="../{{page[0]}}/{{page[0]}}" class="navigator">
+                <view class="navigator-text">{{page[1]}}</view>
+                <view class="navigator-arrow"></view>
+              </navigator>
+            </block>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

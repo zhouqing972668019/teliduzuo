@@ -1,0 +1,10 @@
+<!--pages/faceScore/faceScore.wxml-->
+<view class='qrCode'>
+  <button plain="true" class='uploadImage' bindtap='upload'>上传人脸图片</button>
+  <button plain="true" class='imageScore' bindtap='score'>人脸图片打分</button>
+  <image src='{{img_url}}' data-src='{{img_url}}' mode="aspectFit" style='width:710rpx;margin-left:20rpx;margin-right:20rpx'></image>
+  <view wx:if="{{isShow !=''}}" class="text_box">
+      <text>识别出的年龄是</text><text class='age'>{{age}}\n</text>
+      <text>识别出的颜值是</text><text class='beauty'>{{beauty}}</text>
+    </view>
+</view>
